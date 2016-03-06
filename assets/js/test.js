@@ -1,3 +1,27 @@
+// TIY-Chessboard
+
+
+// _____WHATS INVOLVED____________
+
+// Reviewing HTMl, CSS, JavaScript/jQuery
+// 2D Arrays
+// Game logic
+
+//_______________________________
+
+
+
+// $( document.body ).click(function() {  // not sure if this belongs here //
+//   $( "div" ).each(function( i ) {
+//     if ( this.style.color !== "black" ) {
+//       this.style.color = "black";
+//     } else {
+//       this.style.color = "";
+//     }
+//   });
+// });
+
+
 var K = "&#9819;";
 var Q = "&#9818;";
 var R = "&#9820;";
@@ -21,7 +45,7 @@ var chessBoard = [
   [p, p, p, p, p, p, p, p],
   [r, n, b, q, k, b, n, r] ];
 
-console.log(chessBoard.join('\n') + '\n\n');
+console.log(chessBoard.join('\n') + '\n\n'); // EMPTY BOARD ====================//
 
 function print(message) {
   document.write(message);
@@ -40,4 +64,22 @@ sqGrid += "</table>";
 print(sqGrid);
 }
 
-setPieces(chessBoard);
+setPieces(chessBoard); // BOARD @ BEGINNING W/ PIECES SET =================//
+
+// ====== 1st MOVE =========================//
+
+// ====== 2nd MOVE =========================//
+
+// ====== 3rd MOVE =========================//
+
+// ====== 4th MOVE =========================//
+
+// ====== 5th MOVE =========================//
+
+// ====== 6th MOVE =========================//
+
+// ====== 7th MOVE =========================//
+
+// ====== 8th MOVE =========================//
+
+// ====== 9th MOVE =========================//
