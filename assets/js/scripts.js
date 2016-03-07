@@ -8,17 +8,13 @@ function print(){
     document.write('<table>');
     var index = 0;
 
-	console.log(rank);
+       .each(function(rank, key) {
+        document.write("<tr>");
+        var fileY = 1;
 
-}
+       .each(function(box, k) {
+        var boxId = rankX[index] + fileY;
+        document.write("<td id=" + boxId + ">" + box + "</td>")
+        fileY++;
 
-    //    .each(function(rank, key) {
-    //     document.write("<tr>");
-    //     var fileY = 1;
-	//
-    //    .each(function(box, k) {
-    //     var boxId = rankX[index] + fileY;
-    //     document.write("<td id=" + boxId + ">" + box + "</td>")
-    //     fileY++;
-	//
-    // });
+    });

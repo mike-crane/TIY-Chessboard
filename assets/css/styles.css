@@ -1,0 +1,18 @@
+table {
+	margin-left: 15px;
+	width: 275px;
+	border: 2px solid brown;
+}
+
+td {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+h1 {
+	margin: 10px 0 10px 70px;
+}
+
+.container {
+	position: inherit;
+}

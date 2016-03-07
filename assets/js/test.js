@@ -10,18 +10,6 @@
 //_______________________________
 
 
-
-// $( document.body ).click(function() {  // not sure if this belongs here //
-//   $( "div" ).each(function( i ) {
-//     if ( this.style.color !== "black" ) {
-//       this.style.color = "black";
-//     } else {
-//       this.style.color = "";
-//     }
-//   });
-// });
-
-
 var K = "&#9819;";
 var Q = "&#9818;";
 var R = "&#9820;";
@@ -65,6 +53,16 @@ print(sqGrid);
 }
 
 setPieces(chessBoard); // BOARD @ BEGINNING W/ PIECES SET =================//
+
+// $( document.body ).click(function() {  // not sure if this belongs here //
+//   $( "div" ).each(function( i ) {
+//     if ( this.style.color !== "black" ) {
+//       this.style.color = "black";
+//     } else {
+//       this.style.color = "";
+//     }
+//   });
+// });
 
 // ====== 1st MOVE =========================//
 
