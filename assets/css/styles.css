@@ -1,18 +1,86 @@
-table {
-	margin-left: 15px;
-	width: 275px;
-	border: 2px solid brown;
+body {
+	font-family: monospace;
+	font-weight: 600;
+	color: #2D3142;
+  background: #BFBFBF;
 }
 
-td {
+.grid-box {
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 2.5em;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  float: left;
+  padding-top: 14px;
+	box-sizing: border-box;
+	border: 2px solid #2D3142;
 }
 
-h1 {
-	margin: 10px 0 10px 70px;
+.grid-box-2 {
+  background: #999999;
 }
 
-.container {
-	position: inherit;
+.rowMain {
+	font-size: 2.5em;
+	list-style: none;
+  position: absolute;
+  left: -60px;
+  top: 14px;
+}
+
+.row {
+	text-align: center;
+	height: 70px;
+  width: 70px;
+}
+
+.columnMain {
+	font-size: 2.5em;
+  position: absolute;
+  top: -50px;
+}
+
+.column {
+	width: 70px;
+  height: 70px;
+  text-align: center;
+  display: inline-block;
+  float: left;
+}
+
+.game-controls {
+  position: absolute;
+  left: 33%;
+	bottom: -65px;
+}
+
+#boardSet {
+  position: relative;
+	margin-left: 27%;
+	margin-top: 4em;
+  width: 570px;
+  height: 570px;
+  box-sizing: border-box;
+  background: #AD694C;
+	border: solid 5px #2D3142;
+}
+
+#back, #play, #forward {
+	background-color: #2D3142;
+	color: #BCBCBC;
+	font-weight: 600;
+	vertical-align: middle;
+	border-radius: 5px;
+	border-style: none;
+}
+
+#forward, #back {
+	font-size: 35px;
+	padding: 0 15px 7px 15px;
+}
+
+#play {
+	font-size: 20px;
+	padding: 7px 25px 5px 25px;
 }

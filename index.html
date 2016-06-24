@@ -1,16 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>TIY-Chessboard</title>
-        <link rel="stylesheet" href="assets/css/styles.css">
-    </head>
-    <body>
-        <div class="container">
-        <h1>Chessboard</h1>
-            <div id="gridDiv">
-            </div>
+<html>
+
+<head>
+    <meta charset="utf-8">
+		<title>TIY Chessboard</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <section id="boardSet">
+        <ul class="rowMain">
+            <li class="row"></li>
+            <li class="row"></li>
+            <li class="row"></li>
+            <li class="row"></li>
+            <li class="row"></li>
+            <li class="row"></li>
+            <li class="row"></li>
+            <li class="row"></li>
+        </ul>
+        <ul class="columnMain">
+            <li class="column"></li>
+            <li class="column"></li>
+            <li class="column"></li>
+            <li class="column"></li>
+            <li class="column"></li>
+            <li class="column"></li>
+            <li class="column"></li>
+            <li class="column"></li>
+        </ul>
+        <div class="game-controls">
+            <button id="back">&#171;</button>
+            <button id="play">&#9654;</button>
+            <button id="forward">&#187;</button>
         </div>
-        <script src="assets/js/test.js"></script>
-    </body>
+    </section>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+		<script src="assets/js/scripts.js"></script>
+</body>
+
 </html>
